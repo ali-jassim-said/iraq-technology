@@ -1,5 +1,20 @@
 /* ======= Responsive Css ==========*/
 
+
+
+:root{
+    --color-one: #7d51fe;
+    --color-tow: #b6fe00;
+    --color-three: #42E8FF;
+    --color-four: #252835;
+    --color-five: #f4f4f4;
+}
+
+
+
+
+
+
 @media (max-width: 1450px) {
 	.navbar-light,
 	.nav-white {
@@ -156,11 +171,11 @@
 		margin: 10px auto;
 	}
 	.hero-section-image {
-		background: rgba(122, 73, 220, 1);
-		background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(122, 73, 220, 1)), color-stop(100%, rgba(90, 27, 215, 1)));
-		background: -webkit-linear-gradient(135deg, rgba(122, 73, 220, 1) 0%, rgba(90, 27, 215, 1) 100%);
-		background: -o-linear-gradient(135deg, rgba(122, 73, 220, 1) 0%, rgba(90, 27, 215, 1) 100%);
-		background: linear-gradient(-45deg, rgba(122, 73, 220, 1) 0%, rgba(90, 27, 215, 1) 100%);
+		background: var(--color-five);
+		background: -webkit-gradient(left top, right bottom, color-stop(0%, var(--color-five)), color-stop(100%, var(--color-five)));
+		background: -webkit-linear-gradient(135deg, var(--color-five) 0%, var(--color-five) 100%);
+		background: -o-linear-gradient(135deg,var(--color-five) 0%, var(--color-five) 100%);
+		background: linear-gradient(-45deg, var(--color-five) 0%, var(--color-five) 100%);
 	}
 	.about-section {
 		padding: 50px 0px;
@@ -227,7 +242,7 @@
 		background: #fff;
 	}
 	.navbar-brand {
-		background-image: url(../../images/logo-black.png);
+		background-image: url(../../images/techno/logo1.svg);
 	}
 	.contact-from {
 		padding: 0 15px;
