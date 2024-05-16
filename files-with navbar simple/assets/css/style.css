@@ -47,6 +47,34 @@ CSS INDEX
   display: none;
 }
 
+
+
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-three);
+}
+
+
+
+
+.Service-item-two .new-icon {
+  width: 42px;
+  height: 42px;
+} 
+
+
+
+
 body {
   background-color: #fff;
   position: relative;
@@ -274,12 +302,13 @@ body.animate {
 
 .loader-inner svg {
   display: block;
-  width: 22px;
-  height: 22px;
+  width: 40px;
+  height: 40px;
   position: relative;
 }
 
 .loader-inner svg rect {
+  display: none;
   fill: none;
   stroke: #2eca3d;
   stroke-width: 10px;
@@ -289,13 +318,14 @@ body.animate {
 
 .loader-inner svg circle {
   fill: none;
-  stroke: #febf04;
+  stroke: var(--color-one);
   stroke-width: 10px;
   stroke-linejoin: round;
   stroke-linecap: round;
 }
 
 .loader-inner svg polygon {
+  display: none;
   fill: none;
   stroke: #1574ed;
   stroke-width: 10px;
@@ -694,10 +724,10 @@ body.animate {
 }
 
 .hero-section-image {
-  background: #fff;
+  background-image: url(../../images/techno/photo_2024-05-12_14-24-26.jpg);
   background-position: top left;
   background-repeat: no-repeat;
-  background-size: 70% 100%;
+  background-size: 100% 100%;
   height: 100%;
 }
 
@@ -833,6 +863,8 @@ body.animate {
 .about-section {
   position: relative;
 }
+
+
 
 .about-section:after {
   content: "";
@@ -995,7 +1027,7 @@ body.animate {
 }
 
 .shape1 {
-  background: url(../../images/heading-shape.png) no-repeat scroll center center;
+  background: url() no-repeat scroll center center;
   height: 15px;
   line-height: 15px;
   margin: 0 0 30px;
@@ -1003,7 +1035,7 @@ body.animate {
 }
 
 .shape2 {
-  background: url(../../images/heading-shape-white.png) no-repeat scroll center
+  background: url() no-repeat scroll center
     center;
 }
 
@@ -1344,7 +1376,7 @@ body.animate {
 }
 
 .Service-item-two .shape1 {
-  background: url(../../images/heading-shape.png) no-repeat scroll left;
+  background: url() no-repeat scroll left;
 }
 
 /*=================== 08. Team Section CSS==============*/
@@ -2061,7 +2093,7 @@ body.animate {
 
 .main-title {
   font-size: 40px;
-  color: #fff;
+  color: var(--color-four);
   font-weight: 600;
   margin: 0 0 1.875rem;
   position: relative;
@@ -2102,7 +2134,7 @@ body.animate {
 }
 
 .about-section-main-box h3 {
-  color: rgba(76, 76, 76, 0.3);
+  color: var(--color-one);
   font-size: 30px;
   font-weight: 900;
   margin: 0 0 20px;
@@ -2123,7 +2155,7 @@ body.animate {
 }
 
 .shape1-left {
-  background: url(../../images/heading-shape.png) no-repeat scroll left;
+  background: url() no-repeat scroll left;
 }
 
 .video-box {

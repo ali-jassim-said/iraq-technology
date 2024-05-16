@@ -1,13 +1,23 @@
 
-
+:root {
+    --color-one: #7d51fe;
+    --color-tow: #b6fe00;
+    --color-three: #42e8ff;
+    --color-four: #252835;
+    --color-five: #f4f4f4;
+  }
 
 
 
 
 
 .hero-image img{
+    display: none;
     width: 859px;
     height: 480px;
     padding-right: 50px;
 
 }
+
+
+

@@ -171,11 +171,11 @@
 		margin: 10px auto;
 	}
 	.hero-section-image {
-		background: var(--color-five);
-		background: -webkit-gradient(left top, right bottom, color-stop(0%, var(--color-five)), color-stop(100%, var(--color-five)));
-		background: -webkit-linear-gradient(135deg, var(--color-five) 0%, var(--color-five) 100%);
-		background: -o-linear-gradient(135deg,var(--color-five) 0%, var(--color-five) 100%);
-		background: linear-gradient(-45deg, var(--color-five) 0%, var(--color-five) 100%);
+		background-image: url(../../images/techno/photo_2024-05-12_14-24-26.jpg);
+		background-position: top left;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 100%;
 	}
 	.about-section {
 		padding: 50px 0px;
